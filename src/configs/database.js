@@ -1,7 +1,8 @@
+require('dotenv').config();
 module.exports = {
     multipleStatements  : true,
-    host                : 'localhost',
-    user                : 'root',
-    password            : '',
-    database            : 'db_perusahaan'
+    host                : process.env.HOST,
+    user                : process.env.USER,
+    password            : process.env.PASSWORD,
+    database            : process.env.DATABASE
 };
