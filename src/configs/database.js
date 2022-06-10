@@ -1,8 +1,8 @@
 require('dotenv').config();
 module.exports = {
     multipleStatements  : true,
-    host                : process.env.HOST,
-    user                : process.env.USER,
-    password            : process.env.PASSWORD,
-    database            : process.env.DATABASE
+    host                : "sql6.freemysqlhosting.net",
+    user                : "sql6498920",
+    password            : "atwEmgTqwj",
+    database            : "sql6498920"
 };
